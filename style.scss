@@ -1,0 +1,16 @@
+.navbar{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    position: fixed;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    height: 10vh;
+}

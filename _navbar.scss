@@ -1,0 +1,60 @@
+.div{
+    display:flex;   
+     justify-content: center;
+    background-color: pink;
+    height: 10vh;
+    gap: 20px;
+    text-transform: capitalize;
+    color: white;
+    marquee{
+        p{
+           $color: white;
+        }
+    }
+  
+}
+.navbar{margin: 0%;
+    padding: 0%;
+    position: sticky;
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  border: 3px solid whitesmoke;
+  margin-top: 2px;
+  
+  a{
+    i{margin-left:20px ;}
+  }
+  i{
+    margin-right: 20px;
+  }
+
+    div{
+  width: 100%;
+  border: 0px solid #e5e7eb;
+  padding:10px;
+  margin: 20px;
+  background-color: #e5e7eb;
+  border-radius: .25rem;;
+    
+}
+div{
+    input{
+        background: transparent;
+        border: 0px;
+        outline: 0px;
+        width: 90%;
+    }
+}
+}
+.head{
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    height: 10vh;
+    gap: 20px;
+    text-transform:capitalize;
+}

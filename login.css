@@ -1,0 +1,41 @@
+.navbar {
+  flex-wrap: wrap;
+  position: sticky;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid whitesmoke;
+}
+.navbar img {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.head {
+  text-align: center;
+  margin-top: 20px;
+}
+.head h4 {
+  margin-right: 55vh;
+  margin-bottom: 4px;
+}
+.head p {
+  margin-right: 5vh;
+  text-transform: capitalize;
+}
+.head input {
+  width: 72vh;
+  height: 5vh;
+  border: 1px solid;
+  text-transform: capitalize;
+  padding: 5px;
+}
+.head button {
+  width: 72vh;
+  height: 6vh;
+  background-color: rgb(253, 65, 162);
+  text-transform: capitalize;
+  color: white;
+  border: 0px;
+}/*# sourceMappingURL=login.css.map */

@@ -1,12 +1,42 @@
+.div {
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+  height: 10vh;
+  gap: 20px;
+  text-transform: capitalize;
+  color: white;
+}
 .navbar {
   margin: 0%;
   padding: 0%;
+  position: sticky;
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  background-color: whitesmoke;
-  position: fixed;
-  text-transform: capitalize;
-  box-sizing: border-box;
+  gap: 10px;
+  border: 3px solid whitesmoke;
+  margin-top: 2px;
+}
+.navbar a i {
+  margin-left: 20px;
+}
+.navbar i {
+  margin-right: 20px;
+}
+.navbar div {
+  width: 100%;
+  border: 0px solid #e5e7eb;
+  padding: 10px;
+  margin: 20px;
+  background-color: #e5e7eb;
+  border-radius: 0.25rem;
+}
+.navbar div input {
+  background: transparent;
+  border: 0px;
+  outline: 0px;
+  width: 90%;
 }
 
 .head {
@@ -14,4 +44,86 @@
   justify-content: space-around;
   background-color: pink;
   height: 10vh;
+  gap: 20px;
+  text-transform: capitalize;
+}
+
+.head2 {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.head2 .img1 {
+  background-image: url(istockphoto-938463764-612x612.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.head2 .img1 H1 {
+  text-align: left;
+  padding: 50vh 70vh 20vh 10vh;
+  font-style: italic;
+  color: rgb(249, 251, 251);
+}
+.head2 h2 {
+  color: rgb(235, 83, 108);
+  text-align: center;
+}
+.head2 .img2 {
+  margin-top: -25%;
+}
+.head2 .img2 img {
+  border-radius: 30px;
+  padding: 10px;
+}
+.head2 .btn {
+  text-align: center;
+}
+.head2 .btn button {
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(233, 231, 231);
+}
+.head2 :hover.btn button {
+  background-color: black;
+  color: white;
+}
+.head2 h3 {
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+  color: rgb(100, 7, 41);
+}
+.head2 h4 {
+  text-align: center;
+  color: rgb(235, 41, 131);
+}
+.head2 .img3 {
+  display: flex;
+  justify-content: space-around;
+}
+.head2 .img3 img {
+  border-radius: 50%;
+  padding: 20px;
+}
+.head2 .img4 .A {
+  display: flex;
+  justify-content: space-around;
+}
+.head2 .img4 img {
+  border-radius: 50%;
+}
+
+.head2 {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.head3 .m3 {
+  background-image: url(devushka-ulitsa-poza-stil-shatenka.webp);
+  height: 100vh;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

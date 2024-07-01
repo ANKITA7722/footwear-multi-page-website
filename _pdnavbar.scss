@@ -57,6 +57,7 @@ div{
 }
 }
 .head1{
+
   display: flex;
   justify-content: space-around;
     margin-top: 1%;
@@ -68,5 +69,6 @@ div{
         .p3{
           @include demo;
         }
+        
     }
 }

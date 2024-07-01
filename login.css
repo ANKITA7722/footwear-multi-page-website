@@ -1,15 +1,24 @@
 .navbar {
-  flex-wrap: wrap;
-  position: sticky;
   margin: 0%;
+  padding: 0%;
+  position: sticky;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
-  border: 3px solid whitesmoke;
+  border: 1px solid silver;
 }
-.navbar img {
-  padding-left: 400px;
-  padding-right: 400px;
+.navbar .n-1 {
+  margin-left: 20px;
+}
+.navbar .n-1 h4 {
+  color: rgb(249, 64, 166);
+  text-transform: capitalize;
+}
+.navbar .n-3 {
+  margin-right: 20px;
+}
+.navbar .n-3 i {
+  padding: 10px;
 }
 
 .head {
@@ -19,6 +28,7 @@
 .head h4 {
   margin-right: 55vh;
   margin-bottom: 4px;
+  text-transform: capitalize;
 }
 .head p {
   margin-right: 5vh;

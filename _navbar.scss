@@ -1,4 +1,5 @@
 .div{
+  position: absolute;
     display:flex;   
      justify-content: center;
     background-color: pink;
@@ -15,8 +16,8 @@
 }
 .navbar{margin: 0%;
     padding: 0%;
-    position: sticky;
-    
+    position:relative;
+    padding: fixed;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -48,6 +49,10 @@ div{
         width: 90%;
     }
 }
+}
+@media screen and (max-width:600px){
+  
+  
 }
 .head{
   

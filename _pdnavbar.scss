@@ -1,7 +1,13 @@
-.div{
-    display:flex;   
-     justify-content: center;
-    background-color: pink;
+.body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.head{
+  width: 100%;
+  display: block;
+  font-size: larger;
+     background-color: rgb(245, 71, 144);
     height: 10vh;
     gap: 20px;
     text-transform: capitalize;
@@ -19,56 +25,51 @@
   font-style: italic;
   text-align: center;
 }
-
-.navbar{margin: 0%;
-    padding: 0%;
-    position: sticky;
-    
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    gap: 10px;
-  border: 3px solid whitesmoke;
-  margin-top: 2px;
-  
-  a{
-    i{margin-left:50px ;}
-  }
-  i{
-    margin-right: 30px;
-  }
-
-    div{
-  width: 100%;
-  border: 0px solid #e5e7eb;
-  padding:10px;
-  margin: 20px;
-  background-color: #e5e7eb;
-  border-radius: .25rem;;
-    
+.navbar{
+  width:100% ;
+  display: block;
+       position: relative; 
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       background-color: rgb(240, 234, 234);
+  .n-1{ margin-left: 20px;
+    h4{
+      @include demo;
+  }                         
 }
-div{
-    input{
-        background: transparent;
-        border: 0px;
-        outline: 0px;
-        width: 90%;
-    }
+.n-3{
+margin-right: 20px;
+i{
+  padding: 10px;
+}
 }
 }
 .head1{
-
+  width: 100%;
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
     margin-top: 1%;
     .m1{
+      box-shadow: 2px 2px 10px rgb(37, 4, 19);
       text-transform: capitalize;
         border: 2px solid whitesmoke;
         text-align: center;
         align-items: center;
+        
         .p3{
           @include demo;
+    
         }
         
     }
+}
+@media screen and (max:600px) {
+  .navbar{
+    i{display: block;}
+  }
+  .m1{
+    flex-wrap:wrap;
+  }
 }

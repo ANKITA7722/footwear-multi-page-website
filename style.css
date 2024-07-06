@@ -1,4 +1,5 @@
 .div {
+  position: absolute;
   display: flex;
   justify-content: center;
   background-color: pink;
@@ -10,7 +11,8 @@
 .navbar {
   margin: 0%;
   padding: 0%;
-  position: sticky;
+  position: relative;
+  padding: fixed;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -109,6 +111,7 @@
   padding: 20px;
 }
 .head2 .img4 .A {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
 }
@@ -116,14 +119,63 @@
   border-radius: 50%;
 }
 
-.head2 {
-  width: 100%;
+.head3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  width: 100%;
   margin-top: 20px;
 }
 
-.head3 .m3 {
-  background-image: url(devushka-ulitsa-poza-stil-shatenka.webp);
-  height: 100vh;
+.head3::before, .head3::after {
+  content: "";
+  height: 1px;
+  background-color: black;
+  display: block;
+}
+
+.head4 {
+  display: grid;
+  grid-template-columns: 500px auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  border: 2px solid;
+  height: 7000vh;
   width: 100%;
+}
+.head4 .ch {
+  border: 2px solid;
+}
+.head4 .ch .ch1 {
+  background-image: url(outdoor-full-body-portrait-young-600nw-522307024.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 20px 20px 20px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 300vh;
+  width: 100%;
+}
+.head4 .ch .ch2 {
+  margin: 20px 20px 20px 20px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 300vh;
+  width: 100%;
+}
+.head4 .ch .ch3 {
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: 300vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .head2 {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

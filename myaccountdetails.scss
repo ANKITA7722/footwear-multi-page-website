@@ -7,6 +7,7 @@
     border: 1px solid silver;
   
     .n-1{ margin-left: 20px;
+      
       h4{
         color: rgb(249, 64, 166);}                         
 }
@@ -49,4 +50,27 @@
       }
     }
   }
- 
+  button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: rgb(242, 8, 117) ;
+    margin-top: 20px;
+    margin-bottom: 20vh;
+    margin-left: 60px;
+    border-radius: 5px;
+  }
+  .fotter{
+    a{ text-decoration: none;
+     color: black;}
+     text-transform: capitalize;
+     background-color:white;
+     height: 70px;
+     width: 100%;
+     bottom: 0px;
+     position:fixed;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 500vh;
+  }

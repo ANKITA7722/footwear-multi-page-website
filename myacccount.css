@@ -18,7 +18,10 @@
 .navbar .n-3 {
   margin-right: 20px;
 }
-.navbar .n-3 i {
+.navbar .n-3 a {
+  text-decoration: none;
+}
+.navbar .n-3 a i {
   padding: 10px;
 }
 

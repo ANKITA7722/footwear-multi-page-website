@@ -14,10 +14,16 @@
     }
   
 }
-.navbar{margin: 0%;
+.navbar{
+  ul{
+    display: none;
+  }
+  margin: 0%;
     padding: 0%;
-    position:relative;
-    padding: fixed;
+    width: 100%;
+    position:relative fixed;
+    padding: 2px;
+    top:10vh;
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -50,6 +56,7 @@ div{
     }
 }
 }
+
 @media screen and (max-width:600px){
   
   

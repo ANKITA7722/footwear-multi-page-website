@@ -1,0 +1,52 @@
+.navbar{margin: 0%;
+    padding: 0%;
+    position: sticky; 
+    display: flex;
+  justify-content: space-between;
+    align-items: center;
+    border: 1px solid silver;
+  
+    .n-1{ margin-left: 20px;
+      h4{
+        color: rgb(249, 64, 166);}                         
+}
+ .n-3{
+  margin-right: 20px;
+  i{
+    padding: 10px;
+  }
+ }
+}
+.head3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    width: 100%;
+    margin-top: 20px;
+ 
+ }
+ 
+ .head3::before,
+ .head3::after {
+    content: "";
+    height: 1px;
+    background-color: black;
+    display: block;
+ }
+ .head-1{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+    width: 100%;
+    .h1{
+      margin-left: -300px;
+      text-transform: capitalize;
+      input{
+        width: 200%;
+        padding: 10px;
+      }
+    }
+  }
+ 

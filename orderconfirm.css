@@ -1,0 +1,85 @@
+.navbar {
+  margin: 0%;
+  padding: 0%;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid silver;
+  box-shadow: 3px 5px 3px rgb(229, 224, 224);
+}
+.navbar .n-1 {
+  margin-left: 20px;
+}
+.navbar .n-1 h4 {
+  color: rgb(229, 40, 109);
+  text-transform: capitalize;
+}
+.navbar .n-3 {
+  margin-right: 20px;
+}
+.navbar .n-3 a {
+  text-decoration: none;
+}
+.navbar .n-3 a i {
+  padding: 10px;
+}
+
+.head-1 {
+  margin-top: 20px;
+  text-transform: capitalize;
+  background-color: #0cb80c;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.head-1 .p2 {
+  font-size: xx-large;
+  margin-top: -10px;
+}
+.head-1 .p3 {
+  font-size: xx-large;
+  margin-top: -10px;
+}
+.head-1 input {
+  padding-left: 20px;
+  text-transform: capitalize;
+  width: 600px;
+  height: 30px;
+}
+
+.head-2 {
+  display: flex;
+  justify-content: space-around;
+  text-transform: capitalize;
+  margin-right: 600px;
+  margin-top: 20px;
+}
+.head-2 .ch1 img {
+  text-align: center;
+  margin-top: 20px;
+}
+.head-2 .p2 {
+  color: rgb(234, 70, 98);
+  margin-right: 200px;
+  margin-bottom: -10px;
+}
+
+hr {
+  border: 5px solid rgb(215, 213, 213);
+}
+
+.head-3 {
+  text-transform: capitalize;
+}
+
+button {
+  position: sticky;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(239, 30, 107);
+  color: white;
+  font-size: larger;
+  border: none;
+  border-radius: 8px;
+}/*# sourceMappingURL=orderconfirm.css.map */

@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .div {
   position: absolute;
   display: flex;
@@ -8,6 +12,15 @@
   text-transform: capitalize;
   color: white;
 }
+#sidebarmenu {
+  height: 100%;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  width: 300px;
+  margin-top: 10vh;
+}
+
 .navbar {
   margin: 0%;
   padding: 0%;

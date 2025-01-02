@@ -140,7 +140,7 @@ body {
 .img4 img {
   border-radius: 50%;
 }
-
+/* ankita */
 .head3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -150,7 +150,7 @@ body {
   width: 100%;
   margin-top: 20px;
 }
-
+/* ankita */
 
 
 .head3::before,
